@@ -16,6 +16,7 @@ class App extends Component {
   };
 
 clickCount = id => {
+  
     this.state.cards.find((o, i) => {
 
       if (o.id === id) {
